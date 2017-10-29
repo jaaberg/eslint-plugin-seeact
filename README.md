@@ -1,8 +1,6 @@
 # eslint-plugin-seeact
 
-You see a problem, act upon it. This eslint plugin was originally made since I wrote a plugin 
-that wouldn't get accepted in the eslint-plugin-react, but I still kept hearing people wanted 
-to use the rule. This is for you. 
+SEE a problem, ACT upon it. This plugin currently have one rule: catching the use of `this.state` inside `this.setState`.
 
 ## Installation
 
