@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-seeact",
+  "version": "0.0.0",
+  "description": "SEE a problem, ACT upon it. An ESLint plugin.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Jørgen Aaberg",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
